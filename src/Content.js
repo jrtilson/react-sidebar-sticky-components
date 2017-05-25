@@ -211,8 +211,15 @@ class Content extends Component {
 				<SomeElement elementClicked={this.elementClicked} onMount={this.registerSidebarComponent} id="third" handleClick={this.handleClick}>
 					Child #3
 				</SomeElement>
+				<br/><br/><br/>
 				<SomeElement elementClicked={this.elementClicked} onMount={this.registerSidebarComponent} id="fourth" handleClick={this.handleClick}>
 					Child #4
+				</SomeElement>
+				<SomeElement elementClicked={this.elementClicked} onMount={this.registerSidebarComponent} id="fifth" handleClick={this.handleClick}>
+					Child #5
+				</SomeElement>
+				<SomeElement elementClicked={this.elementClicked} onMount={this.registerSidebarComponent} id="sixth" handleClick={this.handleClick}>
+					Child #6
 				</SomeElement>
 				{
 					isOpen &&
